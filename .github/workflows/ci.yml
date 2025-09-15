@@ -8,9 +8,7 @@ on:
       - "Dockerfile"     
       - "run.py"     
       - "requirements.txt"      
-    paths-ignore:
-      - "helm/**"        
-      - "*.md"            
+         
   pull_request:
     branches: [ "main" ]
     paths:
@@ -18,9 +16,7 @@ on:
       - "Dockerfile"      
       - "run.py"      
       - "requirements.txt"      
-    paths-ignore:
-      - "helm/**"         
-      - "*.md"            
+       
   workflow_dispatch:
 
 jobs:
